@@ -4,17 +4,17 @@ class Rclone < Formula
   license "MIT"
   version "1.70.3"
 
-  on_macos do
-    on_intel do
-      url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-amd64.zip"
-      sha256 "1616b25d5c5fd07a52498d09480a4fdbeb42e0d21cd3246d2d7df5dddd5ce35a"
-    end
-
-    on_arm do
-      url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-arm64.zip"
-      sha256 "14a9c5eb9f699a749470c898974412092eee204d74d3395486e3307c255021f7"
-    end
+  on_intel do
+    url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-amd64.zip"
+    sha256 "1616b25d5c5fd07a52498d09480a4fdbeb42e0d21cd3246d2d7df5dddd5ce35a"
   end
+
+  on_arm do
+    url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-arm64.zip"
+    sha256 "14a9c5eb9f699a749470c898974412092eee204d74d3395486e3307c255021f7"
+  end
+
+  depends_on :macos
 
   conflicts_with "rclone", because: "both install `rclone` binaries"
 
