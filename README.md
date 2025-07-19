@@ -4,6 +4,7 @@ Homebrew 直接安装官方二进制文件而无需编译。
 
 ## 已添加的 formula/cask
 
+[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fhugo.rb&search=version%20%22(.%2B)%22&replace=%241&label=hugo>)](Formula/hugo.rb)
 [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)](Formula/rclone.rb)
 [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)](Formula/shfmt.rb)
 
