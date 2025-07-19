@@ -10,6 +10,7 @@ Homebrew 直接安装官方二进制文件而无需编译。
 [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshellcheck.rb&search=version%20%22(.%2B)%22&replace=%241&label=shellcheck>)](Formula/shellcheck.rb)
 [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)](Formula/shfmt.rb)
 [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fsyncthing.rb&search=version%20%22(.%2B)%22&replace=%241&label=syncthing>)](Formula/syncthing.rb)
+[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fv2ray.rb&search=version%20%22(.%2B)%22&replace=%241&label=v2ray>)](Formula/v2ray.rb)
 
 ## 如何安装这些 formula/cask
 
