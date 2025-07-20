@@ -4,13 +4,22 @@ Homebrew 直接安装官方二进制文件而无需编译。
 
 ## 已添加的 formula/cask
 
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fhugo.rb&search=version%20%22(.%2B)%22&replace=%241&label=hugo>)](Formula/hugo.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fpandoc.rb&search=version%20%22(.%2B)%22&replace=%241&label=pandoc>)](Formula/pandoc.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)](Formula/rclone.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshellcheck.rb&search=version%20%22(.%2B)%22&replace=%241&label=shellcheck>)](Formula/shellcheck.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)](Formula/shfmt.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fsyncthing.rb&search=version%20%22(.%2B)%22&replace=%241&label=syncthing>)](Formula/syncthing.rb)
-[![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fv2ray.rb&search=version%20%22(.%2B)%22&replace=%241&label=v2ray>)](Formula/v2ray.rb)
+- hugo
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fhugo.rb&search=version%20%22(.%2B)%22&replace=%241&label=hugo>)](Formula/hugo.rb)
+- openlist
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&search=version%20%22(.%2B)%22&replace=%241&label=openlist>)](Formula/openlist.rb)
+- pandoc
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fpandoc.rb&search=version%20%22(.%2B)%22&replace=%241&label=pandoc>)](Formula/pandoc.rb)
+- rclone
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)](Formula/rclone.rb)
+- shellcheck
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshellcheck.rb&search=version%20%22(.%2B)%22&replace=%241&label=shellcheck>)](Formula/shellcheck.rb)
+- shfmt
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)](Formula/shfmt.rb)
+- syncthing
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fsyncthing.rb&search=version%20%22(.%2B)%22&replace=%241&label=syncthing>)](Formula/syncthing.rb)
+- v2ray
+  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fv2ray.rb&search=version%20%22(.%2B)%22&replace=%241&label=v2ray>)](Formula/v2ray.rb)
 
 ## 如何安装这些 formula/cask
 
@@ -38,3 +47,4 @@ brew untap qianbinbin/tap
 - 源码编译安装耗时很长，且可能存在不必要的依赖。
 - Homebrew 官方的安装方式受到限制（例如，rclone 无法使用 mount 子命令）。
 - golang.org 在部分地区不可用。
+- 一些软件没有官方 formula 或 tap（例如，openlist）。
