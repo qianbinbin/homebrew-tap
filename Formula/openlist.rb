@@ -39,6 +39,9 @@ class Openlist < Formula
 
   def caveats
     <<~EOS
+      Data:    #{var}/lib/openlist/
+      Config:  #{var}/lib/openlist/config.json
+      Logs:    #{var}/log/openlist/
       When run from `brew services`, the initial user and password is in:
         #{var}/log/openlist/error.log
     EOS
