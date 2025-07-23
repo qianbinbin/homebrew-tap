@@ -2,16 +2,16 @@ class Yq < Formula
   desc "Process YAML, JSON, XML, CSV and properties documents from the CLI"
   homepage "https://github.com/mikefarah/yq"
   license "MIT"
-  version "4.46.1"
+  version "4.47.1"
 
   on_intel do
     url "https://github.com/mikefarah/yq/releases/download/v#{version}/yq_darwin_amd64.tar.gz"
-    sha256 "70cb7b9a6601360de699c789000814e26023bf6b3fbb2454462e5169a4936f03"
+    sha256 "f158283aec894eefc07cc761f594d6ac955dc649714213f3bee0759a5198a272"
   end
 
   on_arm do
     url "https://github.com/mikefarah/yq/releases/download/v#{version}/yq_darwin_arm64.tar.gz"
-    sha256 "8f989ef930252bfe9ef054c2202cdf00a84f4f2e06ff1035ca598feee1b2e181"
+    sha256 "465bd5bacf957064a51ff4d37cdb4b4d85fc30cb70bf7afdc1720d3789fb5b8d"
   end
 
   depends_on :macos
