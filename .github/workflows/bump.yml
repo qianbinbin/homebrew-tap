@@ -1,0 +1,70 @@
+name: Bump Packages
+
+on:
+  schedule:
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch:
+
+jobs:
+  bump_packages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write # for gh label create
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump packages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash # set -eo pipefail by default
+        run: |
+          pkg_type() { if head -1 "$1" | grep -iqs formula; then echo formula; else echo cask; fi; }
+          pkg_version() { sed -En 's/^ *version "([^"]+)"$/\1/p' "$1"; }
+          base_branch=$(git branch --show-current)
+          for f in */*.rb; do
+            pkg=$(basename "$f" | sed 's/\.rb$//')
+            _type=$(pkg_type "$f")
+            old_ver=$(pkg_version "$f")
+
+            ./bump.sh "$f" 2>&1 | tee .out || { rm -f .out && continue; }
+
+            new_ver=$(pkg_version "$f")
+            bump_branch="bump/$pkg/$new_ver"
+            if git show-ref --quiet --verify "refs/remotes/origin/$bump_branch"; then
+              echo "Remote branch '$bump_branch' already exists, please delete the branch to recreate a PR."
+              echo "Skipping..."
+              rm -f .out
+              continue
+            fi
+
+            git checkout -b "$bump_branch"
+            git add "$f"
+            git commit -m "Bump $pkg from $old_ver to $new_ver"
+            git push origin "$bump_branch"
+
+            gh label create auto --description "Automatically created by CI/CD" || true
+            gh label create "$_type" || true
+            gh label create "$pkg" || true
+            gh pr create \
+              --base "$base_branch" \
+              --head "$bump_branch" \
+              --title "Bump $pkg from $old_ver to $new_ver" \
+              --body-file .out \
+              --label "auto" \
+              --label "$_type" \
+              --label "$pkg"
+
+            rm -f .out
+            git checkout "$base_branch"
+            git reset --hard "origin/$base_branch"
+          done
