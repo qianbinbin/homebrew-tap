@@ -24,17 +24,6 @@ class Openlist < Formula
   def post_install
     (var/"lib/openlist").mkpath
     (var/"log/openlist").mkpath
-    # Fix the stupid file hierarchy
-    unless (var/"lib/openlist/config.json").exist?
-      pid = Process.spawn bin/"openlist", "server", "--data", var/"lib/openlist", [:out, :err] => "/dev/null"
-      sleep 5
-      Process.kill "TERM", pid
-      sleep 5
-      rm var/"lib/openlist/data.db"
-      rm_r var/"lib/openlist/temp"
-      rm_r var/"lib/openlist/log"
-      inreplace var/"lib/openlist/config.json", var/"lib/openlist/log/log.log", var/"log/openlist/access.log"
-    end
   end
 
   def caveats
@@ -42,6 +31,7 @@ class Openlist < Formula
       Data:    #{var}/lib/openlist/
       Config:  #{var}/lib/openlist/config.json
       Logs:    #{var}/log/openlist/
+
       When run from `brew services`, the initial user and password is in:
         #{var}/log/openlist/error.log
     EOS
@@ -52,6 +42,7 @@ class Openlist < Formula
     keep_alive true
     log_path var/"log/openlist/error.log"
     error_log_path var/"log/openlist/error.log"
+    environment_variables OPENLIST_LOG_NAME: var/"log/openlist/access.log"
   end
 
   test do
