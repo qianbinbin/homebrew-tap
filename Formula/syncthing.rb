@@ -23,9 +23,11 @@ class Syncthing < Formula
 
     system "curl", "-fsSLO", "https://github.com/syncthing/syncthing/archive/refs/tags/v#{version}.tar.gz"
     system "tar", "-xf", "v#{version}.tar.gz"
-    man1.install Dir["syncthing-#{version}/man/*.1"]
-    man5.install Dir["syncthing-#{version}/man/*.5"]
-    man7.install Dir["syncthing-#{version}/man/*.7"]
+    cd "syncthing-#{version}" do
+      man1.install Dir["man/*.1"]
+      man5.install Dir["man/*.5"]
+      man7.install Dir["man/*.7"]
+    end
   end
 
   service do
