@@ -36,7 +36,7 @@ jobs:
             _type=$(pkg_type "$f")
             old_ver=$(pkg_version "$f")
 
-            ./bump.sh "$f" 2>&1 | tee .out || { rm -f .out && continue; }
+            ./bump.sh -f "$f" 2>&1 | tee .out || { rm -f .out && continue; }
 
             new_ver=$(pkg_version "$f")
             bump_branch="bump/$pkg/$new_ver"
