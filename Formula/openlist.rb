@@ -6,12 +6,12 @@ class Openlist < Formula
 
   on_intel do
     url "https://github.com/OpenListTeam/OpenList/releases/download/v#{version}/openlist-darwin-amd64.tar.gz"
-    sha256 "591bcf502fb1135ed5f3339e1d3d6cd15fab3725648ab609805cf988d8e9137f"
+    sha256 "a73ae04e2d3f170a7db0bd22f4036a6ee7371edea67c607f166b68794c3fcb68"
   end
 
   on_arm do
     url "https://github.com/OpenListTeam/OpenList/releases/download/v#{version}/openlist-darwin-arm64.tar.gz"
-    sha256 "ecc3b28bf9f90a5fe7aae789814e477b31436b64962cfc6a40cef858fe759a83"
+    sha256 "dc318b05eaa11dbfa7bd402677196f66e9d0e2cb7b2906dbd28b62194ae51537"
   end
 
   depends_on :macos
