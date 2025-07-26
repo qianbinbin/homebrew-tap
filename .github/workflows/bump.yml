@@ -59,7 +59,7 @@ jobs:
               --base "$base_branch" \
               --head "$bump_branch" \
               --title "Bump $pkg from $old_ver to $new_ver" \
-              --body-file .out \
+              --body "$(printf '```\n' && cat .out && printf '```\n')" \
               --label "auto" \
               --label "$_type" \
               --label "$pkg"
