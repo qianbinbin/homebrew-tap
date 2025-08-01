@@ -32,8 +32,13 @@ class Openlist < Formula
       Config:  #{var}/lib/openlist/config.json
       Logs:    #{var}/log/openlist/
 
-      When run from `brew services`, the initial user and password is in:
+      When run from `brew services`, the server runs at:
+        http://localhost:5244
+      The initial user and password is in:
         #{var}/log/openlist/error.log
+
+      Quick start:
+        https://doc.oplist.org/guide
     EOS
   end
 
@@ -42,7 +47,8 @@ class Openlist < Formula
     keep_alive true
     log_path var/"log/openlist/error.log"
     error_log_path var/"log/openlist/error.log"
-    environment_variables OPENLIST_LOG_NAME: var/"log/openlist/access.log"
+    environment_variables OPENLIST_LOG_NAME: var/"log/openlist/access.log",
+      OPENLIST_ADDR: "localhost"
   end
 
   test do
