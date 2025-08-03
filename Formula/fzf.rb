@@ -2,16 +2,16 @@ class Fzf < Formula
   desc "Command-line fuzzy finder written in Go"
   homepage "https://github.com/junegunn/fzf"
   license "MIT"
-  version "0.65.0"
+  version "0.65.1"
 
   on_intel do
     url "https://github.com/junegunn/fzf/releases/download/v#{version}/fzf-#{version}-darwin_amd64.tar.gz"
-    sha256 "202a353f790633455b3a04b7253c6292d8c70e069a5c8cf4766de0d652f74bc5"
+    sha256 "818c58844a200926b58391810c30be0c9f83822ad6e224fab9ee6e8b7e60c836"
   end
 
   on_arm do
     url "https://github.com/junegunn/fzf/releases/download/v#{version}/fzf-#{version}-darwin_arm64.tar.gz"
-    sha256 "9e4dfe01a67020a19861c881fd2ffbb8dd19b118b15e82e8fae83c578ca61ab7"
+    sha256 "2fc1de9545e49efce63a7c1f8cd2616c0c112478867d5a99e5b24570038a57a1"
   end
 
   depends_on :macos
