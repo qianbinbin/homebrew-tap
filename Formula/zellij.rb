@@ -2,16 +2,16 @@ class Zellij < Formula
   desc "Pluggable terminal workspace, with terminal multiplexer as the base feature"
   homepage "https://zellij.dev"
   license "MIT"
-  version "0.43.0"
+  version "0.43.1"
 
   on_intel do
     url "https://github.com/zellij-org/zellij/releases/download/v#{version}/zellij-x86_64-apple-darwin.tar.gz"
-    sha256 "d4933b805e127cc60edb77cf9356995863eb484aa014bc2f90804384ce1bb852"
+    sha256 "7b0c1a9c2591eadf506ec58d62ef5f6d9c93d089a3603142af3dcca5fa575d44"
   end
 
   on_arm do
     url "https://github.com/zellij-org/zellij/releases/download/v#{version}/zellij-aarch64-apple-darwin.tar.gz"
-    sha256 "03569f56e3f31d24471128169ba32be476c5dd25b261ae9193645bf7a2e52e7c"
+    sha256 "a09ea51f3d98427253de2b889bb04f1aa0850fbb034911c7a01b8f0194edba66"
   end
 
   depends_on :macos
