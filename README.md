@@ -1,51 +1,6 @@
 # qianbinbin/homebrew-tap
 
-Homebrew 直接安装官方二进制文件而无需编译。
-
-## 已添加的 formula/cask
-
-- bat
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fbat.rb&search=version%20%22(.%2B)%22&replace=%241&label=bat>)](Formula/bat.rb)
-- fd
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffd.rb&search=version%20%22(.%2B)%22&replace=%241&label=fd>)](Formula/fd.rb)
-- fzf
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffzf.rb&search=version%20%22(.%2B)%22&replace=%241&label=fzf>)](Formula/fzf.rb)
-- gh
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fgh.rb&search=version%20%22(.%2B)%22&replace=%241&label=gh>)](Formula/gh.rb)
-- hugo
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fhugo.rb&search=version%20%22(.%2B)%22&replace=%241&label=hugo>)](Formula/hugo.rb)
-- jq
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fjq.rb&search=version%20%22(.%2B)%22&replace=%241&label=jq>)](Formula/jq.rb)
-- openlist
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&search=version%20%22(.%2B)%22&replace=%241&label=openlist>)](Formula/openlist.rb)
-- pandoc
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fpandoc.rb&search=version%20%22(.%2B)%22&replace=%241&label=pandoc>)](Formula/pandoc.rb)
-- rclone
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)](Formula/rclone.rb)
-- ripgrep
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fripgrep.rb&search=version%20%22(.%2B)%22&replace=%241&label=ripgrep>)](Formula/ripgrep.rb)
-- shellcheck
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshellcheck.rb&search=version%20%22(.%2B)%22&replace=%241&label=shellcheck>)](Formula/shellcheck.rb)
-- shfmt
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)](Formula/shfmt.rb)
-- syncthing
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fsyncthing.rb&search=version%20%22(.%2B)%22&replace=%241&label=syncthing>)](Formula/syncthing.rb)
-- tlrc
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftlrc.rb&search=version%20%22(.%2B)%22&replace=%241&label=tlrc>)](Formula/tlrc.rb)
-- v2ray
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fv2ray.rb&search=version%20%22(.%2B)%22&replace=%241&label=v2ray>)](Formula/v2ray.rb)
-- yamlfmt
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyamlfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=yamlfmt>)](Formula/yamlfmt.rb)
-- yazi
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyazi.rb&search=version%20%22(.%2B)%22&replace=%241&label=yazi>)](Formula/yazi.rb)
-- yq
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyq.rb&search=version%20%22(.%2B)%22&replace=%241&label=yq>)](Formula/yq.rb)
-- zellij
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fzellij.rb&search=version%20%22(.%2B)%22&replace=%241&label=zellij>)](Formula/zellij.rb)
-- zoxide
-  [![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fzoxide.rb&search=version%20%22(.%2B)%22&replace=%241&label=zoxide>)](Formula/zoxide.rb)
-
-## 如何安装这些 formula/cask
+Homebrew 直接安装官方二进制文件而无需编译，由 CI/CD 自动更新。
 
 将此仓库添加到本地 Homebrew：
 
@@ -53,17 +8,48 @@ Homebrew 直接安装官方二进制文件而无需编译。
 brew tap qianbinbin/tap
 ```
 
-例如，安装 rclone：
+安装所需软件包，例如 rclone：
 
 ```sh
 brew install qianbinbin/tap/rclone
 ```
 
-要删除此仓库：
+如需删除此仓库：
 
 ```sh
 brew untap qianbinbin/tap
 ```
+
+## 已添加的包
+
+通过以下命令查看仓库内所有包：
+
+```sh
+brew search qianbinbin/tap
+```
+
+| 包                                  | 类型    | 编译时依赖                  | 版本                                                                                                                                                                                                                                              |
+| ----------------------------------- | ------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bat](Formula/bat.rb)               | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fbat.rb&search=version%20%22(.%2B)%22&replace=%241&label=bat>)               |
+| [fd](Formula/fd.rb)                 | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffd.rb&search=version%20%22(.%2B)%22&replace=%241&label=fd>)                 |
+| [fzf](Formula/fzf.rb)               | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffzf.rb&search=version%20%22(.%2B)%22&replace=%241&label=fzf>)               |
+| [gh](Formula/gh.rb)                 | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fgh.rb&search=version%20%22(.%2B)%22&replace=%241&label=gh>)                 |
+| [hugo](Formula/hugo.rb)             | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fhugo.rb&search=version%20%22(.%2B)%22&replace=%241&label=hugo>)             |
+| [jq](Formula/jq.rb)                 | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fjq.rb&search=version%20%22(.%2B)%22&replace=%241&label=jq>)                 |
+| [openlist](Formula/openlist.rb)     | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&search=version%20%22(.%2B)%22&replace=%241&label=openlist>)     |
+| [pandoc](Formula/pandoc.rb)         | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fpandoc.rb&search=version%20%22(.%2B)%22&replace=%241&label=pandoc>)         |
+| [rclone](Formula/rclone.rb)         | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)         |
+| [ripgrep](Formula/ripgrep.rb)       | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fripgrep.rb&search=version%20%22(.%2B)%22&replace=%241&label=ripgrep>)       |
+| [shellcheck](Formula/shellcheck.rb) | formula | [pandoc](Formula/pandoc.rb) | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshellcheck.rb&search=version%20%22(.%2B)%22&replace=%241&label=shellcheck>) |
+| [shfmt](Formula/shfmt.rb)           | formula | scdoc                       | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fshfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=shfmt>)           |
+| [syncthing](Formula/syncthing.rb)   | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fsyncthing.rb&search=version%20%22(.%2B)%22&replace=%241&label=syncthing>)   |
+| [tlrc](Formula/tlrc.rb)             | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftlrc.rb&search=version%20%22(.%2B)%22&replace=%241&label=tlrc>)             |
+| [v2ray](Formula/v2ray.rb)           | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fv2ray.rb&search=version%20%22(.%2B)%22&replace=%241&label=v2ray>)           |
+| [yamlfmt](Formula/yamlfmt.rb)       | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyamlfmt.rb&search=version%20%22(.%2B)%22&replace=%241&label=yamlfmt>)       |
+| [yazi](Formula/yazi.rb)             | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyazi.rb&search=version%20%22(.%2B)%22&replace=%241&label=yazi>)             |
+| [yq](Formula/yq.rb)                 | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fyq.rb&search=version%20%22(.%2B)%22&replace=%241&label=yq>)                 |
+| [zellij](Formula/zellij.rb)         | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fzellij.rb&search=version%20%22(.%2B)%22&replace=%241&label=zellij>)         |
+| [zoxide](Formula/zoxide.rb)         | formula |                             | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fzoxide.rb&search=version%20%22(.%2B)%22&replace=%241&label=zoxide>)         |
 
 ## 为什么添加此仓库
 
@@ -71,4 +57,6 @@ brew untap qianbinbin/tap
 - 源码编译安装耗时很长，且可能存在不必要的依赖。
 - Homebrew 官方的安装方式受到限制（例如，rclone 无法使用 mount 子命令）。
 - golang.org 在部分地区不可用。
-- 一些软件没有官方 formula 或 tap（例如，openlist）。
+- 一些软件没有官方 formula/cask 或 tap 仓库（例如，openlist）。
+
+如果你有希望添加的包，请创建议题。
