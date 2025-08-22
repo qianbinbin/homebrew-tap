@@ -15,6 +15,7 @@ class Syncthing < Formula
   end
 
   depends_on :macos
+  depends_on macos: :monterey
 
   conflicts_with "syncthing", because: "both install `syncthing` binaries"
 
