@@ -2,16 +2,16 @@ class Gh < Formula
   desc "GitHub command-line tool"
   homepage "https://cli.github.com/"
   license "MIT"
-  version "2.76.2"
+  version "2.78.0"
 
   on_intel do
     url "https://github.com/cli/cli/releases/download/v#{version}/gh_#{version}_macOS_amd64.zip"
-    sha256 "a8d27429a00f50ae3318fc75a9ed1e8400932c109a657e1570467eab76f6c419"
+    sha256 "324f2647f81a9a23934e8f8a969b10d471c398076d027f2dcf9bdc97931adef1"
   end
 
   on_arm do
     url "https://github.com/cli/cli/releases/download/v#{version}/gh_#{version}_macOS_arm64.zip"
-    sha256 "43cea90fbd5d3b607b6125082f4a5faf7d5fc2e548d3d349a3b0310706a4f878"
+    sha256 "62290b0dbc9965ebbc20d2b481fe83aa167fadc28e0d81a5d93eec6efc9d3b72"
   end
 
   depends_on :macos
