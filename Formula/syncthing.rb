@@ -2,16 +2,16 @@ class Syncthing < Formula
   desc "Open source continuous file synchronization application"
   homepage "https://syncthing.net/"
   license "MPL-2.0"
-  version "2.0.1"
+  version "2.0.6"
 
   on_intel do
     url "https://github.com/syncthing/syncthing/releases/download/v#{version}/syncthing-macos-amd64-v#{version}.zip"
-    sha256 "0acf6e203b9318fefa47792ffebc1fad9bfd1311ce763f95c56e06f3e88705ed"
+    sha256 "6c8e437400eab1f10ba4e1db957c4bbe3ebdef5f44e6f7256d528f14fd83a5b3"
   end
 
   on_arm do
     url "https://github.com/syncthing/syncthing/releases/download/v#{version}/syncthing-macos-arm64-v#{version}.zip"
-    sha256 "9ff2fdddd30a36791d71e86072fdb5b88198389a7ea9cd6b8134977b9f01ba0d"
+    sha256 "7f92b169a04421f29ea50b9e9dbd3ec97889f4266dbcaafae00101e6c3543880"
   end
 
   depends_on :macos
