@@ -2,9 +2,9 @@ class Hugo < Formula
   desc "Configurable static site generator"
   homepage "https://gohugo.io/"
   license "Apache-2.0"
-  version "0.149.0"
+  version "0.149.1"
   url "https://github.com/gohugoio/hugo/releases/download/v#{version}/hugo_extended_withdeploy_#{version}_darwin-universal.tar.gz"
-  sha256 "d5f08dc37e5dba377b3b3995fe95b811f1d054dea8c8bff6b6abb9ccdc17100a"
+  sha256 "f61719e5ce83b9b1e6630648e773c90c5b8a7d79fc28daa2224b19da813cfa16"
 
   depends_on :macos
 
