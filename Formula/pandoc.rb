@@ -2,16 +2,16 @@ class Pandoc < Formula
   desc "Swiss-army knife of markup format conversion"
   homepage "https://pandoc.org/"
   license "GPL-2.0-or-later"
-  version "3.7.0.2"
+  version "3.8"
 
   on_intel do
     url "https://github.com/jgm/pandoc/releases/download/#{version}/pandoc-#{version}-x86_64-macOS.zip"
-    sha256 "5495af2c548bd49fe00c28a7f6dadaa1348e6338b92368d3d6e29fd3e16061d1"
+    sha256 "07a7fb7db6346710f3c9b06e6eb0ce49a66afa0d1969aa0158ecb14d9eaecb20"
   end
 
   on_arm do
     url "https://github.com/jgm/pandoc/releases/download/#{version}/pandoc-#{version}-arm64-macOS.zip"
-    sha256 "66a579bd8aae83de0bbeba43900953b075a6a3caaa7d1bfc19173e8f95d2ea17"
+    sha256 "7cfaa04a57816397dd6498fd50ada01bdeb04feefab737da37d493fb30131533"
   end
 
   depends_on :macos
