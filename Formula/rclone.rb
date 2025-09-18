@@ -29,6 +29,13 @@ class Rclone < Formula
     fish_completion.install "rclone.fish"
   end
 
+  def post_install
+    # Fix "no route to host" issue, aka local network privacy on macOS >= 15
+    if Hardware::CPU.intel? && MacOS.version >= :sequoia
+      system "codesign", "--sign", "-", bin/"rclone"
+    end
+  end
+
   test do
     (testpath/"file1.txt").write "Test!"
     system bin/"rclone", "copy", testpath/"file1.txt", testpath/"dist"
