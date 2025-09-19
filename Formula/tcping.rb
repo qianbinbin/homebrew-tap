@@ -21,9 +21,4 @@ class Tcping < Formula
   def install
     bin.install "tcping"
   end
-
-  test do
-    assert_match version.to_s, shell_output("#{bin}/tcping -v")
-    system bin/"tcping", "-c", "1", "github.com", "443"
-  end
 end

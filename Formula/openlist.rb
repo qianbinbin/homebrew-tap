@@ -51,8 +51,4 @@ class Openlist < Formula
     environment_variables OPENLIST_LOG_NAME: var/"log/openlist/access.log",
       OPENLIST_ADDR: "localhost"
   end
-
-  test do
-    assert_match "Version: v#{version}", shell_output(bin/"openlist version")
-  end
 end

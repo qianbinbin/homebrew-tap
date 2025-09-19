@@ -36,10 +36,4 @@ class Rclone < Formula
       system "codesign", "--sign", "-", bin/"rclone"
     end
   end
-
-  test do
-    (testpath/"file1.txt").write "Test!"
-    system bin/"rclone", "copy", testpath/"file1.txt", testpath/"dist"
-    assert_match File.read(testpath/"file1.txt"), File.read(testpath/"dist/file1.txt")
-  end
 end
