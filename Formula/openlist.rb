@@ -15,6 +15,7 @@ class Openlist < Formula
   end
 
   depends_on :macos
+  depends_on macos: :monterey
 
   def install
     bin.install "openlist"
