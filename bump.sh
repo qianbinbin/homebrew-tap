@@ -83,7 +83,7 @@ update_gh_release() {
     if [ -z "$new_sha256" ]; then
       new_url="${url//\#\{version\}/$new_ver}"
       error "sha256 not found on GitHub, downloading to compute..." "$new_url"
-      curl -L --retry 4 "$new_url" -o "$TMP_DIR/$new_name"
+      curl -fL --retry 4 "$new_url" -o "$TMP_DIR/$new_name"
       new_sha256=$(sha256sum "$TMP_DIR/$new_name" | awk '{ print $1 }')
     fi
     if [ "$old_sha256" = "$new_sha256" ]; then
