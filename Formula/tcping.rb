@@ -1,5 +1,5 @@
 class Tcping < Formula
-  desc "Ping TCP ports. Inspired by Linux's ping utility. Written in Go"
+  desc "Ping TCP ports"
   homepage "https://github.com/pouriyajamshidi/tcping"
   license "MIT"
   version "2.7.1"
