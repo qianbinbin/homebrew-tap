@@ -32,6 +32,7 @@ brew search qianbinbin/tap
 | ------------------------------- | ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [openlist](Formula/openlist.rb) | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&search=version%20%22(.%2B)%22&replace=%241&label=openlist>) |
 | [rclone](Formula/rclone.rb)     | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)     |
+| [safe-rm](Formula/safe-rm.rb)   | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkaelzhang%2Fshell-safe-rm%2Fcommits%3Fper_page%3D1&search=%22sha%22%3A%22(.%7B7%7D)&replace=HEAD-%241&label=safe-rm>)           |
 | [tcping](Formula/tcping.rb)     | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftcping.rb&search=version%20%22(.%2B)%22&replace=%241&label=tcping>)     |
 
 ## 为什么添加此仓库
