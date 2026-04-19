@@ -2,16 +2,16 @@ class Rclone < Formula
   desc "Rsync for cloud storage"
   homepage "https://rclone.org/"
   license "MIT"
-  version "1.73.4"
+  version "1.73.5"
 
   on_intel do
     url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-amd64.zip"
-    sha256 "4ef15279d857372f3ff84b967ad68fc1c3b113d631effb9c09a18e40f8a78fa7"
+    sha256 "19c709563e455d8f8e343d5521e741afa7a77e37c6552ad8f7b03034f8bc214b"
   end
 
   on_arm do
     url "https://github.com/rclone/rclone/releases/download/v#{version}/rclone-v#{version}-osx-arm64.zip"
-    sha256 "8cfffacc3ce732b1960645a2f7d2ce97c2ac9ba4f2221c13af6378c199a078f9"
+    sha256 "b9e265eb7a098743d0726c05c73fe207d355950fb8481e0b226c0c00173da1e8"
   end
 
   depends_on :macos
