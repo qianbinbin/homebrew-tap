@@ -32,7 +32,8 @@ class Rclone < Formula
 
   def post_install
     # Fix "no route to host" issue, aka local network privacy on macOS >= 15
-    if Hardware::CPU.intel? && MacOS.version >= :sequoia
+    if Hardware::CPU.intel? && MacOS.version >= :sequoia && !quiet_system("codesign", "-v", bin/"rclone")
+      ohai "Binary not signed, applying ad-hoc signature..."
       system "codesign", "--sign", "-", bin/"rclone"
     end
   end
