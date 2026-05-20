@@ -1,6 +1,6 @@
 cask "vmware-fusion" do
-  version "25H2u1,25219963"
-  sha256 "bfe88fe1653e50aafcaf3fce5eacb4c491d40ae5d43a5199c991caebb04b98d0"
+  version "26H1,25388279"
+  sha256 "c1d373aa21be25674e3ecc518819e255785dea9d456d8747bcb0a2a59244bdf6"
 
   # Inspired by https://github.com/Homebrew/homebrew-cask/issues/206132#issuecomment-3705386380
   url "https://archive.org/download/vmwareworkstationarchive/Fusion/#{version.sub(/(u\d*)?,\d+/, '')}/VMware-Fusion-#{version.csv.first}-#{version.csv.second}_universal.dmg",
@@ -26,7 +26,6 @@ cask "vmware-fusion" do
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmss2core"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovftool"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-aewp"
-  binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-authd"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-cloneBootCamp"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-id"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-ntfs"
