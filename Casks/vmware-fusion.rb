@@ -10,7 +10,8 @@ cask "vmware-fusion" do
   homepage "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  conflicts_with cask: "qianbinbin/tap/vmware-fusion@13.6"
+  depends_on macos: :sequoia
 
   app "VMware Fusion.app"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmnet-bridge"

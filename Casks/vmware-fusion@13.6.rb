@@ -9,6 +9,7 @@ cask "vmware-fusion@13.6" do
   homepage "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion"
 
   auto_updates true
+  conflicts_with cask: "qianbinbin/tap/vmware-fusion"
   depends_on macos: :ventura
 
   app "VMware Fusion.app"
