@@ -80,4 +80,13 @@ cask "vmware-fusion" do
     "~/Library/Saved Application State/com.vmware.fusion.savedState",
     "~/Library/WebKit/com.vmware.fusion",
   ]
+
+  caveats <<~EOS
+    I (the maintainer of this tap) have downgraded my system to Ventura, and this cask will no longer be updated.
+
+    To install VMware Fusion 13.6 (at least Ventura is required), run:
+      brew install --cask qianbinbin/tap/vmware-fusion@13.6
+
+    Use it at your own risk.
+  EOS
 end
