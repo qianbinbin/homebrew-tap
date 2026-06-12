@@ -15,6 +15,9 @@ class Tcping < Formula
   end
 
   depends_on :macos
+  on_macos do
+    depends_on macos: :monterey
+  end
 
   conflicts_with "tcping", because: "both install `tcping` binaries"
 

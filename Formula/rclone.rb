@@ -15,7 +15,9 @@ class Rclone < Formula
   end
 
   depends_on :macos
-  depends_on macos: :monterey
+  on_macos do
+    depends_on macos: :monterey
+  end
 
   conflicts_with "rclone", because: "both install `rclone` binaries"
 
