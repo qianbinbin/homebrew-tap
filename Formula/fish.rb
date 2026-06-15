@@ -21,4 +21,24 @@ class Fish < Formula
     (pkgshare/"vendor_completions.d").mkpath
     (pkgshare/"vendor_conf.d").mkpath
   end
+
+  def caveats
+    <<~EOS
+      To configure completions, add the following to your ~/.config/fish/config.fish:
+
+        for i in (brew --prefix)/share/fish/completions (brew --prefix)/share/fish/vendor_completions.d
+            if not contains $i $fish_complete_path; and test -d $i
+                set -p fish_complete_path $i
+            end
+        end
+
+      To configure completions for MacPorts packages, add the following to your ~/.config/fish/config.fish:
+
+        for i in /opt/local/share/fish/completions /opt/local/share/fish/vendor_completions.d
+            if not contains $i $fish_complete_path; and test -d $i
+                set -p fish_complete_path $i
+            end
+        end
+    EOS
+  end
 end

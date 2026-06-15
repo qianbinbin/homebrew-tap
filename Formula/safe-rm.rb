@@ -12,7 +12,7 @@ class SafeRm < Formula
 
   def caveats
     <<~EOS
-      To use it as "rm", add the following to your shell profile e.g. ~/.profile or ~/.zshrc:
+      To use it as "rm", add the following to your shell configuration:
         alias rm='safe-rm'
     EOS
   end

@@ -19,9 +19,8 @@ class CleanMacDumbs < Formula
 
   def caveats
     <<~EOS
-      If you need to use it as "clean", add the following to your shell profile e.g. ~/.profile or ~/.zshrc:
+      If you need to use it as "clean", add the following to your shell configuration:
         alias clean='clean-mac-dumbs'
     EOS
   end
-
 end
