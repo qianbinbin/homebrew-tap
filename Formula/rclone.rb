@@ -39,4 +39,12 @@ class Rclone < Formula
       system "codesign", "--sign", "-", bin/"rclone"
     end
   end
+
+  def caveats
+    <<~EOS
+      I (the maintainer of this tap) have switched to MacPorts, and this formula will be automatically updated by CI/CD.
+
+      Use it at your own risk.
+    EOS
+  end
 end
