@@ -28,18 +28,76 @@ brew untap qianbinbin/tap
 brew search qianbinbin/tap
 ```
 
-| 包                                                | 类型    | 编译时依赖 | 版本                                                                                                                                                                                                                                                            |
-| ------------------------------------------------- | ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [advcpmv](Formula/advcpmv.rb)                     | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fjarun%2Fadvcpmv%2Fcommits%3Fper_page%3D1&search=%22sha%22%3A%22(.%7B7%7D)&replace=HEAD-%241&label=advcpmv>)                                       |
-| [clean-mac-dumbs](Formula/clean-mac-dumbs.rb)     | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fclean-mac-dumbs.rb&search=version%20%22(.%2B)%22&replace=%241&label=clean-mac-dumbs>)     |
-| [fish](Formula/fish.rb)                           | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffish.rb&search=version%20%22(.%2B)%22&replace=%241&label=fish>)                           |
-| [openlist](Formula/openlist.rb)                   | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&search=version%20%22(.%2B)%22&replace=%241&label=openlist>)                   |
-| [rclone](Formula/rclone.rb)                       | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&search=version%20%22(.%2B)%22&replace=%241&label=rclone>)                       |
-| [safe-rm](Formula/safe-rm.rb)                     | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkaelzhang%2Fshell-safe-rm%2Fcommits%3Fper_page%3D1&search=%22sha%22%3A%22(.%7B7%7D)&replace=HEAD-%241&label=safe-rm>)                             |
-| [tcping](Formula/tcping.rb)                       | formula |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftcping.rb&search=version%20%22(.%2B)%22&replace=%241&label=tcping>)                       |
-| [orbstack@1.11.3](Casks/orbstack@1.11.3.rb)       | cask    |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Forbstack@1.11.3.rb&search=version%20%22(.%2B)%22&replace=%241&label=orbstack@1.11.3>)       |
-| [vmware-fusion](Casks/vmware-fusion.rb)           | cask    |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion.rb&search=version%20%22(.%2B)%22&replace=%241&label=vmware-fusion>)           |
-| [vmware-fusion@13.6](Casks/vmware-fusion@13.6.rb) | cask    |            | ![Dynamic Regex Badge](<https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion@13.6.rb&search=version%20%22(.%2B)%22&replace=%241&label=vmware-fusion@13.6>) |
+<table>
+  <tbody>
+    <tr>
+      <th>包</th>
+      <th>类型</th>
+      <th>最低系统</th>
+      <th>版本</th>
+    </tr>
+    <tr>
+      <td><a href="Formula/advcpmv.rb">advcpmv</a></td>
+      <td>formula</td>
+      <td></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fjarun%2Fadvcpmv%2Fcommits%3Fper_page%3D1&amp;search=%22sha%22%3A%22(.%7B7%7D)&amp;replace=HEAD-%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/clean-mac-dumbs.rb">clean-mac-dumbs</a></td>
+      <td>formula</td>
+      <td></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fclean-mac-dumbs.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/fish.rb">fish</a></td>
+      <td>formula</td>
+      <td></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffish.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/openlist.rb">openlist</a></td>
+      <td>formula</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/rclone.rb">rclone</a></td>
+      <td>formula</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Frclone.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/safe-rm.rb">safe-rm</a></td>
+      <td>formula</td>
+      <td></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkaelzhang%2Fshell-safe-rm%2Fcommits%3Fper_page%3D1&amp;search=%22sha%22%3A%22(.%7B7%7D)&amp;replace=HEAD-%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Formula/tcping.rb">tcping</a></td>
+      <td>formula</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftcping.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ftcping.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Casks/orbstack@1.11.3.rb">orbstack@1.11.3</a></td>
+      <td>cask</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Forbstack%401.11.3.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Forbstack@1.11.3.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Casks/vmware-fusion.rb">vmware-fusion</a></td>
+      <td>cask</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+    <tr>
+      <td><a href="Casks/vmware-fusion@13.6.rb">vmware-fusion@13.6</a></td>
+      <td>cask</td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion%4013.6.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FCasks%2Fvmware-fusion@13.6.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 为什么添加此仓库
 
