@@ -49,12 +49,6 @@ brew search qianbinbin/tap
       <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fclean-mac-dumbs.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
     </tr>
     <tr>
-      <td><a href="Formula/fish.rb">fish</a></td>
-      <td>formula</td>
-      <td></td>
-      <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Ffish.rb&amp;search=version%20%22(.%2B)%22&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
-    </tr>
-    <tr>
       <td><a href="Formula/openlist.rb">openlist</a></td>
       <td>formula</td>
       <td><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fgithub.com%2Fqianbinbin%2Fhomebrew-tap%2Fraw%2Frefs%2Fheads%2Fmaster%2FFormula%2Fopenlist.rb&amp;search=depends_on%20macos%3A%20%3A(.%2B)&amp;replace=%241&amp;label=" alt="Dynamic Regex Badge"></td>
