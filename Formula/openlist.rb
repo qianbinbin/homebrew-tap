@@ -2,16 +2,16 @@ class Openlist < Formula
   desc "Resilient, community-driven fork of AList"
   homepage "https://oplist.org/"
   license "AGPL-3.0-only"
-  version "4.2.2"
+  version "4.2.3"
 
   on_intel do
     url "https://github.com/OpenListTeam/OpenList/releases/download/v#{version}/openlist-darwin-amd64.tar.gz"
-    sha256 "9d0fef008bea91dda99428895df92bb476386f90af4a06fe7c041dd13ca5b7a3"
+    sha256 "bef8ff0d869b940b8de907335bfc8ed5d1cf718dbe1385757d4c81ae3f0248e8"
   end
 
   on_arm do
     url "https://github.com/OpenListTeam/OpenList/releases/download/v#{version}/openlist-darwin-arm64.tar.gz"
-    sha256 "19998745ff530db36c3a6f307b1c9c864d6db78d2084b35ffdec0f3ea524bad4"
+    sha256 "5e351060813e39fa8a705683ff1a20620852ff64f1f0edc91bc90c3fd6d4967c"
   end
 
   depends_on :macos
