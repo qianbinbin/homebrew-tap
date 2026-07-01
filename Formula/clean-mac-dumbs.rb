@@ -2,10 +2,10 @@ class CleanMacDumbs < Formula
   desc "Clean .DS_Store, __MACOSX and ._* files, recursively for directories"
   homepage "https://qianbinbin.github.io/posts/cleaning-dumb-dotfiles-on-macos/"
   license "MIT"
-  version "1.0"
+  version "1.1.0"
 
   url "https://qianbinbin.github.io/posts/cleaning-dumb-dotfiles-on-macos/clean-mac-dumbs-#{version}.tar.gz"
-  sha256 "6da2c0a1add6a058581b061cdead3041b08a018a5154b84242b8e5afac90a42f"
+  sha256 "f515105469541caecd9ba5770010832e202253bda1e624456d6ff64a1d032c31"
 
   depends_on :macos
 
