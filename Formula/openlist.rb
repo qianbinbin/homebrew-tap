@@ -16,7 +16,7 @@ class Openlist < Formula
 
   depends_on :macos
   on_macos do
-    depends_on macos: :monterey
+    depends_on macos: :ventura
   end
 
   def install
