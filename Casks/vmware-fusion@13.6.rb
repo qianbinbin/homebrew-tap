@@ -2,8 +2,7 @@ cask "vmware-fusion@13.6" do
   version "13.6.4,24832108"
   sha256 "a43fd031165896bc1b7ecc61eb07b377bfc01b014c9111b08e18a6a1af121191"
 
-  url "https://archive.org/download/vmwareworkstationarchive/Fusion/#{version.sub(/\..+/, '')}.x/VMware-Fusion-#{version.csv.first}-#{version.csv.second}_universal.dmg",
-      verified: "archive.org/download/vmwareworkstationarchive/Fusion/"
+  url "https://archive.org/download/vmwareworkstationarchive/Fusion/#{version.sub(/\..+/, '')}.x/VMware-Fusion-#{version.csv.first}-#{version.csv.second}_universal.dmg"
   name "VMware Fusion"
   desc "Create, manage, and run virtual machines"
   homepage "https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion"
@@ -41,15 +40,12 @@ cask "vmware-fusion@13.6" do
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-vmx-debug"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-vmx-stats"
 
-  postflight do
-    system_command "#{appdir}/VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool",
-                   args:         ["set"],
-                   sudo:         true,
-                   sudo_as_root: true
+  postflight_steps do
+    run "VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool", args: ["set"], base: :appdir, sudo: true, sudo_as_root: true
   end
 
-  uninstall_preflight do
-    set_ownership "#{appdir}/VMware Fusion.app"
+  uninstall_preflight_steps do
+    set_ownership "VMware Fusion.app", base: :appdir
   end
 
   uninstall delete: "/etc/paths.d/com.vmware.fusion.public"
