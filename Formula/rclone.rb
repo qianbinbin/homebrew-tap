@@ -30,9 +30,7 @@ class Rclone < Formula
     bash_completion.install "rclone.bash" => "rclone"
     zsh_completion.install "_rclone"
     fish_completion.install "rclone.fish"
-  end
 
-  def post_install
     # Fix "no route to host" issue, aka local network privacy on macOS >= 15
     if Hardware::CPU.intel? && MacOS.version >= :sequoia && !quiet_system("codesign", "-v", bin/"rclone")
       ohai "Binary not signed, applying ad-hoc signature..."

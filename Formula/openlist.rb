@@ -22,9 +22,7 @@ class Openlist < Formula
   def install
     bin.install "openlist"
     generate_completions_from_executable(bin/"openlist", "completion")
-  end
 
-  def post_install
     (var/"lib/openlist").mkpath
     (var/"log/openlist").mkpath
   end

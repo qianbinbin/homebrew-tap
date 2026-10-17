@@ -31,6 +31,7 @@ cask "orbstack@1.11.3" do
 
   postflight_steps do
     run "OrbStack.app/Contents/MacOS/bin/orbctl", args: ["_internal", "brew-postflight"], base: :appdir
+  end
 
   uninstall script: {
     executable: "#{appdir}/OrbStack.app/Contents/MacOS/bin/orbctl",

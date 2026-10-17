@@ -40,7 +40,7 @@ cask "vmware-fusion" do
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmware-vmx-stats"
 
   postflight_steps do
-    run "VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool", args: ["set"], base: :appdir, sudo: true, sudo_as_root: true
+    run "VMware Fusion.app/Contents/Library/Initialize VMware Fusion.tool", args: ["set"], base: :appdir, sudo: true
   end
 
   uninstall_preflight_steps do
