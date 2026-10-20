@@ -7,9 +7,13 @@ class Advcpmv < Formula
     advcpmv_version = File.read("install.sh")[/\s*ADVCPMV_VERSION=\$\{1:-(.+)\}$/, 1]
     coreutils_version = File.read("install.sh")[/\s*CORE_UTILS_VERSION=\$\{2:-(.+)\}$/, 1]
     system "curl", "-LO", "https://ftp.gnu.org/gnu/coreutils/coreutils-#{coreutils_version}.tar.xz"
-    system "tar", "xf", "coreutils-#{coreutils_version}.tar.xz"
+    system "tar", "-xf", "coreutils-#{coreutils_version}.tar.xz"
     cd "coreutils-#{coreutils_version}" do
-      system "patch", "-p1", "-i", "../advcpmv-#{advcpmv_version}-#{coreutils_version}.patch"
+      patch = "../advcpmv-#{advcpmv_version}-#{coreutils_version}.patch"
+      ohai "Removing .texi blocks in #{patch}"
+      File.write(patch, File.read(patch).gsub(/^[ \t]*--- .*\.texi.*(?:\n(?!---).*)*\n?/, ""))
+
+      system "patch", "-p1", "-i", patch
       system "./configure"
       system "make"
       bin.install Dir["src/{cp,mv}"]
